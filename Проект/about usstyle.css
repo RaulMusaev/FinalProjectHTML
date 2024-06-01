@@ -1,0 +1,130 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #555;
+}
+.navbar a.active {
+    background-color: #04AA6D;
+}
+a
+{
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container {
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    color: #007bff;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+body footer
+{
+    background-color: #000000;
+    color: white;
+    height: 390px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+body footer .allInfo
+{
+    padding: 0px 120px;
+}
+
+body .allInfo .footerHeader
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+}
+
+body footer .allInfo .footerHeader ul li
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+body footer .allInfo .socialMedia
+{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    margin-top: 15px;
+}
+
+#footerP
+{
+    margin-top: 150px;
+}

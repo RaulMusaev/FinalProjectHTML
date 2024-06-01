@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9; /* Цвет фона */
+    color: #333;
+}
+.container{
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+.container_cards{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 225px);
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    column-gap: 150px;
+    row-gap: 25px;
+}
+
+.card_img
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.card_img > img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.2s;
+}
+.card_img:hover > img{
+    transform: scale(1.1);
+}
+.card
+{
+    margin-top: 100px;
+    width: 225px;
+    min-height: 100px; 
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    transition: 0.2s;
+}
+
+.card_top{
+    flex: 0 0 220 px;
+}
+.card_bottom{
+    flex: 1 0 auto;
+}
+.card_price
+{
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 19px;
+    color: #414141;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.card_price::after{
+    content: "\20BD";
+    margin-left: 4px;
+}
+.card_title{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    color: #414141;
+}
+.card_title:hover{
+    color: #ff6633
+}
+.card_btn{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    font-size: 17px;
+    color: #70c05b;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.card_btn:hover{
+    background-color:#70c05b ;
+    color: #fff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+.navbar a {
+    color:black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #555;
+}
+.navbar a.active {
+    background-color: #04AA6D;
+}
+body footer
+{
+    text-align: center;
+    flex-shrink: 0;
+    background-color: #000000;
+    color: white;
+    height: 390px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+body footer .allInfo
+{
+    padding: 0px 120px;
+}
+
+body .allInfo .footerHeader
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+}
+
+body footer .allInfo .footerHeader ul li
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+body footer .allInfo .socialMedia
+{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    margin-top: 15px;
+}
+
+#footerP
+{
+    margin-top: 150px;
+}
